@@ -60,7 +60,7 @@
 					</a>
 				</li>
 				<li class="">
-					<a href="gallery.html">
+					<a href="logout.php">
 					<i class="icon-key"></i> 
 					<span class="title">Keluar</span>
 					</a>

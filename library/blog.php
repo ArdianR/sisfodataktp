@@ -122,53 +122,12 @@
 				<h2 class="h4 pi-weight-700 pi-uppercase pi-letter-spacing pi-has-bg pi-margin-bottom-15">
 					Tentang Kami
 				</h2>
-				
-				<!-- Accordion -->
-				<div class="pi-accordion">
-					
-					<!-- Accordion item -->
-					<div class="pi-accordion-item pi-default-open">
-						<h5 class="pi-accordion-title"><a href="#"><span class="pi-accordion-toggle"></span>The PITheme
-							Philosophy</a></h5>
 
-						<div class="pi-accordion-content">
-							<div>
-								<p>Fugiat dapibus, tellus ac cursus commodo, mauris sit condim eser ntumsi nibh, uum a justo
-									vitaes amet risus amets un. Posi sectetut amet fermntum orem ipsum quia dolor sit.</p>
-							</div>
-						</div>
-					</div>
-					<!-- End accordion item -->
-					
-					<!-- Accordion item -->
-					<div class="pi-accordion-item">
-						<h5 class="pi-accordion-title"><a href="#"><span class="pi-accordion-toggle"></span>The PITheme Promise</a>
-						</h5>
-
-						<div class="pi-accordion-content">
-							<div>
-								<p>Fugiat dapibus, tellus ac cursus commodo, mauris sit condim eser ntumsi nibh, uum a justo
-									vitaes amet risus amets un. Posi sectetut amet fermntum orem ipsum quia dolor.</p>
-							</div>
-						</div>
-					</div>
-					<!-- End accordion item -->
-					
-					<!-- Accordion item -->
-					<div class="pi-accordion-item">
-						<h5 class="pi-accordion-title"><a href="#"><span class="pi-accordion-toggle"></span>We Can Deliver On
-							Projects</a></h5>
-
-						<div class="pi-accordion-content">
-							<div><p>Fugiat dapibus, tellus ac cursus commodo, mauris sit condim eser ntumsi nibh, uum a justo
-								vitaes amet risus amets un. Posi sectetut amet fermntum orem ipsum quia dolor sit.</p></div>
-						</div>
-					</div>
-					<!-- End accordion item -->
-					
+				<div style="text-align:justify">
+					<p>Portal Satu Layanan" adalah laman yang dirancang dan dibangun untuk memberikan kemudahan kepada masyarakat dalam mendapatkan informasi mengenai layanan-layanan yang diberikan badan publik atau pemerintah kepada warga negaranya.</p>
+					<p>Satu Layanan sendiri merupakan hasil kolaborasi antara pemerintah yang dimotori oleh Unit Kerja Presiden bidang Pengawasan dan Pengendalian Pembangunan dibantu beberapa instansi lainnya, BUMN, Akademisi, sektor swasta, hingga para relawan.</p>
 				</div>
-				<!-- End accordion -->
-				
+
 			</div>
 			<!-- End col 4 -->
 
@@ -183,13 +142,13 @@
 				<!-- Testimonial -->
 				<div class="pi-testimonial pi-testimonial-author-with-photo">
 					<div class="pi-testimonial-content pi-testimonial-content-big pi-testimonial-base pi-testimonial-content-quotes">
-						<p><a href="#" class="pi-link-white">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius.</a></p>
+						<p><a href="#" class="pi-link-white">Sistem yang sangat bermanfaat, memberikan beragam informasi kepada masyarakat. Semoga bisa lebih baik</a></p>
 					</div>
 					<div class="pi-testimonial-author pi-clearfix">
-						<span class="pi-testimonial-author-photo pi-img-round"><img src="img_external/testimonials/client-photo-1.jpg" alt="" /></span>
+						<span class="pi-testimonial-author-photo pi-img-round"><img src="images/testi.jpg" alt="" /></span>
 						<div>
-							<h6 class="pi-weight-700 pi-no-margin-bottom">Brian Kochar</h6>
-							<p class="pi-italic pi-no-margin-bottom">Project Manager <a href="#">Company LTD</a></p>
+							<h6 class="pi-weight-700 pi-no-margin-bottom">Feri Harjulianto</h6>
+							<p class="pi-italic pi-no-margin-bottom">Mahasiswa</a></p>
 						</div>
 					</div>
 				</div>

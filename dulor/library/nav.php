@@ -24,7 +24,17 @@
 						<span class="username"><?php echo $_SESSION['username']; ?></span>
 						<i class="icon-angle-down"></i>
 						</a>
+
 						<ul class="dropdown-menu">
+							<li><a href="<?php
+											include "../setting/conf.php";
+								       		$query = mysql_query("select * from setting");
+								      		while ($buff = mysql_fetch_array($query)) 
+								        	{ 
+								        		echo $buff['url_set'];
+								        	}
+						    			?>
+		    			" target="_blank"><i class="icon-home"></i> Homepage</a></li>
 							<li><a href="logout.php"><i class="icon-key"></i> Keluar</a></li>
 						</ul>
 					</li>

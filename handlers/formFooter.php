@@ -39,7 +39,7 @@
 		// Example $address = "joe.doe@yourdomain.com";
 
 		//$address = "example@themeforest.net";
-		$address = "ilnur.gilm@gmail.com";
+		$address = "feriharjulianto@gmail.com";
 
 
 		// Configuration option.
@@ -47,16 +47,16 @@
 
 		// Example, $e_subject = '$name . ' has contacted you via Your Website.';
 
-		$e_subject = 'You\'ve been contacted by ' . $name . '.';
+		$e_subject = 'Kamu\'Telah dihubungi Oleh ' . $name . '.';
 
 
 		// Configuration option.
 		// You can change this if you feel that you need to.
 		// Developers, you may wish to add more fields to the form, in which case you must be sure to add them here.
 
-		$e_body = "You have been contacted by $name, their additional message is as follows." . PHP_EOL . PHP_EOL;
+		$e_body = "Kamu telah dihubungi oleh $name" . PHP_EOL . PHP_EOL;
 		$e_content = "\"$comments\"" . PHP_EOL . PHP_EOL;
-		$e_reply = "You can contact $name via email, $email";
+		$e_reply = "Kamu dapat menghubungi $name via email, $email";
 
 		$msg = wordwrap( $e_body . $e_content . $e_reply, 70 );
 
@@ -70,10 +70,10 @@
 
 		// Email has sent successfully, echo a success page.
 
-			echo '<div class="pi-alert-success fade in"><button type="button" class="pi-close" data-dismiss="alert"><i class="icon-cancel"></i></button><p>Email Sent Successfully!</p></div>';
+			echo '<div class="pi-alert-success fade in"><button type="button" class="pi-close" data-dismiss="alert"><i class="icon-cancel"></i></button><p>Pesan Sukses Dikirim!</p></div>';
 
 		} else {
 
-			echo 'ERROR!';
+			echo 'Pesan Gagal Dikirim!';
 
 		}

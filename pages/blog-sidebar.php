@@ -16,9 +16,9 @@
 						Link Terkait
 					</h3>
 					<ul class="pi-list-with-icons pi-list-icons-right-open">
-						<li><a href="http://indonesia.go.id/" target="_blank">Portal Nasional Indonesia</a> (2)</li>
-						<li><a href="http://www.kalbarprov.go.id/" target="_blank">PemProv Kal-Bar</a> (9)</li>
-						<li><a href="http://ketapangkab.go.id/" target="_blank">PemKab Ketapang</a> (9)</li>
+						<li><a href="http://indonesia.go.id/" target="_blank">Portal Nasional Indonesia</a></li>
+						<li><a href="http://www.kalbarprov.go.id/" target="_blank">PemProv Kal-Bar</a></li>
+						<li><a href="http://ketapangkab.go.id/" target="_blank">PemKab Ketapang</a></li>
 					</ul>
 				</div>
 				<!-- End categories -->

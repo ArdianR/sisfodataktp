@@ -74,7 +74,7 @@
 			            $hasil = mysql_query($query);
 			            while ($qtabel = mysql_fetch_assoc($hasil))
 			                {
-			                    echo '<li><a href="'.$qtabel['url_kat'].'"><span>'.$qtabel['nama_kat'].'</span></a></li>';
+			                    echo '<li><a href="layanan.php?hal=layanan-kategori&kat_layanan='.$qtabel['nama_kat'].'"><span>'.$qtabel['nama_kat'].'</span></a></li>';
 			                }
 					?>
 				</ul>
