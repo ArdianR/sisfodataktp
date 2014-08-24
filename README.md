@@ -16,3 +16,4 @@ CHANGELOG v 1.0.1
 - add link ke frontpage
 - user level
 - fix modul user 
+- admin notes

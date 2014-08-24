@@ -321,3 +321,41 @@
 		
 	}
 ?>
+<br><br>
+<hr>
+<?php 
+include "../setting/conf.php"; 
+$id_catatan = 1;
+
+$query = mysql_query("select * from catatan where id_catatan='$id_catatan'") or die(mysql_error());
+
+$data = mysql_fetch_array($query);
+?>
+                           <div class="portlet box blue ">
+                              <div class="portlet-title">
+                                 <h4><i class="icon-reorder"></i>Admin Notes</h4>
+                                 <div class="tools">
+                                    <a href="javascript:;" class="collapse"></a>
+                                    <a href="#portlet-config" data-toggle="modal" class="config"></a>
+                                    <a href="javascript:;" class="reload"></a>
+                                    <a href="javascript:;" class="remove"></a>
+                                 </div>
+                              </div>
+                              <div class="portlet-body form">
+                                 <!-- BEGIN FORM-->
+                                 <form action="library/catatan-insert.php" method="POST" class="form-horizontal form-bordered form-row-stripped">    
+                                  <input type="hidden" name="id_catatan" value="<?php echo $id_catatan; ?>" />    
+                                 
+                                    <div class="control-group">
+                                       <label class="control-label">Catatan</label>
+                                       <div class="controls">
+                                          <textarea class="span12 wysihtml5 m-wrap" rows="6" name="catatan"><?php echo $data['catatan']; ?></textarea>
+                                       </div>
+                                    </div>  
+                                    <div class="form-actions">
+                                       <button type="submit" name="submit" value="Simpan" class="btn blue"><i class="icon-ok"></i> Simpan Catatan</button>
+                                    </div>
+                                 </form>
+                                 <!-- END FORM-->  
+                              </div>
+                           </div>
