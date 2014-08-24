@@ -82,6 +82,14 @@
                     die ("Halaman tidak tersedia");
               ?>
                 <?php include "../dulor/pages/user-edit.php" ?>
+
+                <?php 
+                break;
+                case 'ubah-user':
+                  if(!file_exists("../dulor/pages/user-edit2.php")) 
+                    die ("Halaman tidak tersedia");
+              ?>
+                <?php include "../dulor/pages/user-edit2.php" ?>
                             
               <?php 
                 break;

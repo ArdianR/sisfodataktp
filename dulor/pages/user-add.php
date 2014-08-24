@@ -40,6 +40,17 @@
                                  <input name="email" type="email" class="span6 m-wrap"/>
                               </div>
                            </div>
+                           <div class="control-group">
+                                       <label class="control-label" >Level</label>
+                                          <div class="controls">
+                                             <select class="span12 chosen" data-placeholder="Level user" tabindex="1" name="level">
+                                                <option value=""></opotion>
+                                                <option value="administrator">Administrator</option>
+                                                <option value="kontributor">Kontributor</option>
+                                             </select>
+                                             <span class="help-inline">Nama Pengirim berita</span>
+                                          </div>
+                                    </div>
                            <div class="form-actions">
                               <button type="submit" class="btn purple" name="submit" value="Simpan" >Tambah</button>
 

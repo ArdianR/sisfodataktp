@@ -28,12 +28,16 @@ if (empty($username) && empty($password)) {
 }
 
 $q = mysql_query("select * from user where username='$username' and password='$password'");
+$r=mysql_fetch_array($q);
 
 if (mysql_num_rows($q) == 1) {
 	//kalau username dan password sudah terdaftar di database
 	//buat session dengan nama username dengan isi nama user yang login
-	$_SESSION['username'] = $username;
-	$_SESSION['fullname'] = $fullname;
+	$_SESSION['username'] = $r['username'];
+	$_SESSION['fullname'] = $r['fullname'];
+	$_SESSION['level'] = $r['level'];
+	$_SESSION['user_id'] = $r['user_id'];
+
 
 	
 	//redirect ke halaman index

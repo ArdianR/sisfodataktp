@@ -20,7 +20,7 @@ $data = mysql_fetch_array($query);
                      </div>
                      <div class="portlet-body form">
                         <!-- BEGIN FORM-->
-                        <form action="library/user-update.php" method="POST" id="form_sample_1" class="form-horizontal">
+                        <form action="library/user-update2.php" method="POST" id="form_sample_1" class="form-horizontal">
                         <input type="hidden" name="user_id" value="<?php echo $user_id; ?>" />  
                            <div class="alert alert-error hide">
                               <button class="close" data-dismiss="alert"></button>

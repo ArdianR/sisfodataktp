@@ -29,6 +29,7 @@
 											<th class="hidden-480">Username</th>
 											<th class="hidden-480">Nama Lengkap</th>
 											<th class="hidden-480">E-Mail</th>
+											<th class="hidden-480">level</th>
 											<th class="hidden-480">Aksi</th>
 											
 										</tr>
@@ -42,6 +43,7 @@
 											<td class="hidden-480"><?php echo $buff['username']; ?></td>
 											<td class="hidden-480"><?php echo $buff['fullname']; ?></td>
 											<td class="hidden-480"><?php echo $buff['email']; ?></td>
+											<td class="hidden-480"><?php echo $buff['level']; ?></td>
 											<td class="center hidden-480">
 												<a href="dashboard.php?hal=edit-user&user_id=<?php echo $buff['user_id']; ?>" class="btn mini purple"><i class="icon-edit"></i> Edit</a>
 												<a href="library/user-delete.php?user_id=<?php echo $buff['user_id']; ?>" class="btn mini black"><i class="icon-trash"></i> Delete</a>

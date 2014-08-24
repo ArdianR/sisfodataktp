@@ -21,7 +21,7 @@
 					<li class="dropdown user">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 						<img alt="" src="assets/img/avatar1_small.jpg" />
-						<span class="username"><?php echo $_SESSION['username']; ?></span>
+						<span class="username"><?php echo $_SESSION['fullname']; ?></span>
 						<i class="icon-angle-down"></i>
 						</a>
 

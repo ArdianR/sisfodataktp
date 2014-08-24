@@ -13,7 +13,8 @@ $kondisi_to_sql=substr(strrev($kondisi1), 1);
 $simpan = "INSERT INTO user SET 	username='$_POST[name]',
 									password = '$_POST[password]',
 									email = '$_POST[email]',
-									fullname  = '$_POST[nama]'
+									fullname  = '$_POST[nama]',
+									level  = '$_POST[level]'
 									";
 
 $simpan2 = mysql_query("INSERT INTO user VALUES ('$kondisi_to_sql')");

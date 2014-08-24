@@ -87,6 +87,14 @@
               ?>
                 <?php include "../dulor/pages/bread-user.php" ?>
 
+                <?php 
+                break;
+                case 'ubah-user':
+                  if(!file_exists("../dulor/pages/bread-user.php")) 
+                    die ("Halaman tidak tersedia");
+              ?>
+                <?php include "../dulor/pages/bread-user.php" ?>
+
 
                             
               <?php 
